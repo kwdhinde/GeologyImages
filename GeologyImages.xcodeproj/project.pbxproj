@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001201A4E5000000001 /* GeologyImagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000001 /* GeologyImagesApp.swift */; };
+		A1000001201A4E5000000002 /* SlideshowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000002 /* SlideshowView.swift */; };
+		A1000001201A4E5000000003 /* ImageOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000003 /* ImageOverlayView.swift */; };
+		A1000001201A4E5000000004 /* ControlsOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000004 /* ControlsOverlayView.swift */; };
+		A1000001201A4E5000000005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000005 /* SettingsView.swift */; };
+		A1000001201A4E5000000006 /* GeologyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000006 /* GeologyImage.swift */; };
+		A1000001201A4E5000000007 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000007 /* AppSettings.swift */; };
+		A1000001201A4E5000000008 /* SlideshowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000008 /* SlideshowViewModel.swift */; };
+		A1000001201A4E5000000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E5000000009 /* Assets.xcassets */; };
+		A1000001201A4E500000000A /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000001101A4E500000000A /* images.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000001001A4E5000000001 /* GeologyImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeologyImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000001101A4E5000000001 /* GeologyImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeologyImagesApp.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000002 /* SlideshowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowView.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000003 /* ImageOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOverlayView.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000004 /* ControlsOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsOverlayView.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000005 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000006 /* GeologyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeologyImage.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000007 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000008 /* SlideshowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowViewModel.swift; sourceTree = "<group>"; };
+		A1000001101A4E5000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000001101A4E500000000A /* images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = images.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000001301A4E5000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1000001401A4E5000000001 = {
+			isa = PBXGroup;
+			children = (
+				A1000001401A4E5000000002 /* GeologyImages */,
+				A1000001401A4E5000000010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000001401A4E5000000002 /* GeologyImages */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001101A4E5000000001 /* GeologyImagesApp.swift */,
+				A1000001401A4E5000000003 /* Models */,
+				A1000001401A4E5000000004 /* Views */,
+				A1000001401A4E5000000005 /* ViewModels */,
+				A1000001401A4E5000000006 /* Resources */,
+				A1000001101A4E5000000009 /* Assets.xcassets */,
+			);
+			path = GeologyImages;
+			sourceTree = "<group>";
+		};
+		A1000001401A4E5000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001101A4E5000000006 /* GeologyImage.swift */,
+				A1000001101A4E5000000007 /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000001401A4E5000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001101A4E5000000002 /* SlideshowView.swift */,
+				A1000001101A4E5000000003 /* ImageOverlayView.swift */,
+				A1000001101A4E5000000004 /* ControlsOverlayView.swift */,
+				A1000001101A4E5000000005 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1000001401A4E5000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001101A4E5000000008 /* SlideshowViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1000001401A4E5000000006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001101A4E500000000A /* images.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1000001401A4E5000000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001001A4E5000000001 /* GeologyImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000001501A4E5000000001 /* GeologyImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000001601A4E5000000001 /* Build configuration list for PBXNativeTarget "GeologyImages" */;
+			buildPhases = (
+				A1000001501A4E5000000002 /* Sources */,
+				A1000001301A4E5000000001 /* Frameworks */,
+				A1000001501A4E5000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeologyImages;
+			productName = GeologyImages;
+			productReference = A1000001001A4E5000000001 /* GeologyImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000001701A4E5000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1000001501A4E5000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1000001601A4E5000000002 /* Build configuration list for PBXProject "GeologyImages" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000001401A4E5000000001;
+			productRefGroup = A1000001401A4E5000000010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000001501A4E5000000001 /* GeologyImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000001501A4E5000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001201A4E5000000009 /* Assets.xcassets in Resources */,
+				A1000001201A4E500000000A /* images.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000001501A4E5000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001201A4E5000000001 /* GeologyImagesApp.swift in Sources */,
+				A1000001201A4E5000000002 /* SlideshowView.swift in Sources */,
+				A1000001201A4E5000000003 /* ImageOverlayView.swift in Sources */,
+				A1000001201A4E5000000004 /* ControlsOverlayView.swift in Sources */,
+				A1000001201A4E5000000005 /* SettingsView.swift in Sources */,
+				A1000001201A4E5000000006 /* GeologyImage.swift in Sources */,
+				A1000001201A4E5000000007 /* AppSettings.swift in Sources */,
+				A1000001201A4E5000000008 /* SlideshowViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000001801A4E5000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		A1000001801A4E5000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1000001801A4E5000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.GeologyImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		A1000001801A4E5000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.GeologyImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000001601A4E5000000001 /* Build configuration list for PBXNativeTarget "GeologyImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000001801A4E5000000003 /* Debug */,
+				A1000001801A4E5000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000001601A4E5000000002 /* Build configuration list for PBXProject "GeologyImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000001801A4E5000000001 /* Debug */,
+				A1000001801A4E5000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000001701A4E5000000001 /* Project object */;
+}

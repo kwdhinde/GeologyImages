@@ -1,0 +1,66 @@
+[
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440001",
+        "imageName": "granite_closeup",
+        "title": "Granite Formation",
+        "description": "Coarse-grained igneous rock with visible quartz, feldspar, and mica crystals formed from slowly cooling magma deep within the Earth's crust.",
+        "location": "Sierra Nevada, California",
+        "scale": "Hand Sample"
+    },
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440002",
+        "imageName": "basalt_columns",
+        "title": "Columnar Basalt",
+        "description": "Hexagonal columns formed by the slow cooling of thick lava flows, creating geometric fracture patterns as the rock contracts uniformly.",
+        "location": "Giant's Causeway, Northern Ireland",
+        "scale": "Landscape"
+    },
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440003",
+        "imageName": "sandstone_layers",
+        "title": "Cross-Bedded Sandstone",
+        "description": "Ancient sand dune deposits showing characteristic angled layers from wind-driven deposition during the Jurassic period.",
+        "location": "Zion National Park, Utah",
+        "scale": "Outcrop"
+    },
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440004",
+        "imageName": "marble_texture",
+        "title": "Carrara Marble",
+        "description": "Metamorphosed limestone with distinctive veining patterns created by mineral impurities during recrystallization under heat and pressure.",
+        "location": "Carrara, Italy",
+        "scale": "Hand Sample"
+    },
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440005",
+        "imageName": "obsidian_flow",
+        "title": "Obsidian Glass",
+        "description": "Volcanic glass formed from rapidly cooled silica-rich lava, showing conchoidal fracture patterns prized by ancient toolmakers.",
+        "location": "Newberry Volcano, Oregon",
+        "scale": "Close-up"
+    },
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440006",
+        "imageName": "limestone_fossils",
+        "title": "Fossiliferous Limestone",
+        "description": "Marine sedimentary rock containing preserved shells and coral fragments from ancient sea floors of the Cretaceous period.",
+        "location": "White Cliffs of Dover, England",
+        "scale": "Hand Sample"
+    },
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440007",
+        "imageName": "gneiss_banding",
+        "title": "Banded Gneiss",
+        "description": "High-grade metamorphic rock displaying alternating light and dark mineral bands formed under intense heat and pressure billions of years ago.",
+        "location": "Canadian Shield, Ontario",
+        "scale": "Outcrop"
+    },
+    {
+        "id": "550E8400-E29B-41D4-A716-446655440008",
+        "imageName": "quartz_vein",
+        "title": "Quartz Vein",
+        "description": "Hydrothermal silica deposit filling fractures in host rock, often associated with gold mineralization during the Gold Rush era.",
+        "location": "Mother Lode, California",
+        "scale": "Close-up"
+    }
+]
