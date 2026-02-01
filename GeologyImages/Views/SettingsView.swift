@@ -9,37 +9,61 @@ struct SettingsView: View {
         NavigationStack {
             Form {
                 Section {
-                    VStack(alignment: .leading, spacing: 12) {
-                        HStack {
-                            Text("Display Duration")
-                            Spacer()
-                            Text("\(Int(settings.displayPeriod)) seconds")
-                                .foregroundColor(.secondary)
+                    HStack {
+                        Text("Display Duration")
+                        Spacer()
+                        Button(action: {
+                            if settings.displayPeriod > settings.displayPeriodRange.lowerBound {
+                                settings.displayPeriod -= 1.0
+                            }
+                        }) {
+                            Image(systemName: "minus.circle.fill")
+                                .font(.title2)
                         }
+                        .buttonStyle(.plain)
 
-                        Slider(
-                            value: $settings.displayPeriod,
-                            in: settings.displayPeriodRange,
-                            step: 1.0
-                        )
-                    }
-                    .padding(.vertical, 8)
+                        Text("\(Int(settings.displayPeriod)) sec")
+                            .frame(minWidth: 80)
+                            .foregroundColor(.secondary)
 
-                    VStack(alignment: .leading, spacing: 12) {
-                        HStack {
-                            Text("Transition Duration")
-                            Spacer()
-                            Text(String(format: "%.1f seconds", settings.transitionDuration))
-                                .foregroundColor(.secondary)
+                        Button(action: {
+                            if settings.displayPeriod < settings.displayPeriodRange.upperBound {
+                                settings.displayPeriod += 1.0
+                            }
+                        }) {
+                            Image(systemName: "plus.circle.fill")
+                                .font(.title2)
                         }
-
-                        Slider(
-                            value: $settings.transitionDuration,
-                            in: settings.transitionDurationRange,
-                            step: 0.5
-                        )
+                        .buttonStyle(.plain)
                     }
-                    .padding(.vertical, 8)
+
+                    HStack {
+                        Text("Transition Duration")
+                        Spacer()
+                        Button(action: {
+                            if settings.transitionDuration > settings.transitionDurationRange.lowerBound {
+                                settings.transitionDuration -= 0.5
+                            }
+                        }) {
+                            Image(systemName: "minus.circle.fill")
+                                .font(.title2)
+                        }
+                        .buttonStyle(.plain)
+
+                        Text(String(format: "%.1f sec", settings.transitionDuration))
+                            .frame(minWidth: 80)
+                            .foregroundColor(.secondary)
+
+                        Button(action: {
+                            if settings.transitionDuration < settings.transitionDurationRange.upperBound {
+                                settings.transitionDuration += 0.5
+                            }
+                        }) {
+                            Image(systemName: "plus.circle.fill")
+                                .font(.title2)
+                        }
+                        .buttonStyle(.plain)
+                    }
                 } header: {
                     Text("Timing")
                 }
